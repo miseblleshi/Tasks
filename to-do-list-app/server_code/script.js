@@ -11,7 +11,7 @@ const file = 'data.json';
 
 function readFile() {
 	let data = JSON.parse(fs.readFileSync(file));
-	return data
+	return data;
 }
 
 function writeFile(data) {
