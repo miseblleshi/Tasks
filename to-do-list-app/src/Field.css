@@ -1,0 +1,7 @@
+main {
+    border-radius: 10px 0px 0px 0px;
+    background-color: var(--sfondi);
+    padding: 20px;
+    height: 95%;
+    overflow: auto;
+}

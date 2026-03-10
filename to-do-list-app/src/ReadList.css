@@ -1,0 +1,44 @@
+#title_header {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#title_header input {
+    background-color: var(--sfondi);
+    color: var(--font);
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    width: 100%;
+}
+
+#title_header input:focus {
+    outline: none;
+}
+
+#title_header div {
+    display: flex;
+    gap: 10px;
+}
+
+#title_header button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#title_header button .trashIcon {
+    font-size: 25px;
+}
+
+#title_header button:hover {
+    transform: scale(1.05);
+}
+
+#title_header button:active {
+    transform: scale(0.95);
+}

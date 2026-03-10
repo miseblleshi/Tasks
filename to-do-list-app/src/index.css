@@ -1,0 +1,53 @@
+:root {
+    --font: system-ui, monospace;
+    --accentcolour: #073254;
+    --sfondi: white;
+    --text: black;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+html, body {
+    padding: none;
+    margin: 0;
+    color: var(--text);
+    font-family: var(--font);
+}
+
+#root {
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--sfondi);
+    border-radius: 10px 0 0 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    background-color: var(--accentcolour);
+    padding-left: 30px;
+}
+
+#lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.trashIcon {
+    color: red;
+}
+
+.headerBackArrow {
+    color: var(--text);
+    font-size: 20px;
+}

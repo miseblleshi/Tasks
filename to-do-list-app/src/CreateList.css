@@ -1,0 +1,46 @@
+#new_title_header button img {
+    width: 30px;
+}
+
+#new_title_header button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#new_title_header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#new_title_header input {
+    background-color: var(--sfondi);
+    color: var(--text);
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    width: 100%;
+}
+
+#new_title_header input:focus {
+    outline: none;
+}
+
+#new_title_header input:hover {
+    outline: none;
+}
+
+#new_title_header button:hover {
+    transform: scale(1.05);
+}
+
+#new_title_header button:active {
+    transform: scale(0.95);
+}
+
+#add {
+    color: var(--text);
+    font-size: 35px;
+}

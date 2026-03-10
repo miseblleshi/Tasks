@@ -1,0 +1,46 @@
+#trash {
+    width: 20px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.insideTask {
+    display: flex;
+    width: 100%;
+}
+
+.insideTask input[type="checkbox"] {
+    width: 1.2em;
+    accent-color: var(--accentcolour);
+}
+
+.insideTask input[type="text"] {
+    color: var(--color);
+    font-family: var(--font);
+    border: none;
+    background: none;
+    font-size: 20px;
+    width: 100%;
+}
+
+.insideTask input[type="text"]:focus {
+    outline: none;
+}
+
+#remove {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#remove:hover {
+    transform: scale(1.1);
+}
+
+#remove:active {
+    transform: scale(0.9);
+}

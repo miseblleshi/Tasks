@@ -1,0 +1,37 @@
+.createTask {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.createTask input[type="checkbox"] {
+    width: 1.2em;
+    accent-color: var(--accentcolour);
+}
+
+.createTask input[type="text"] {
+    color: var(--text);
+    font-family: var(--font);
+    border: none;
+    background: none;
+    font-size: 20px;
+    width: 100%;
+}
+
+.createTask input[type="text"]:focus {
+    outline: none;
+}
+
+.createTask button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.createTask button:hover {
+    transform: scale(1.1);
+}
+
+.createTask button:active {
+    transform: scale(0.9);
+}

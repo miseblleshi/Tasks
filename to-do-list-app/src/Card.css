@@ -1,0 +1,28 @@
+.card h3 {
+    color: rgb(103, 103, 103);
+}
+
+.card {
+    border: 2px solid var(--accentcolour);
+    border-radius: 10px;
+    box-shadow: 5px 5px var(--accentcolour);
+    height: 150px;
+    aspect-ratio: 1/1;
+    padding: 10px;
+    transition: transform 0.08s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card:hover #cardTrash {
+    display: block;
+}
+
+.card:active {
+    transform: scale(0.99);
+}

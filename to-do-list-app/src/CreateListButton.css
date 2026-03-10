@@ -1,0 +1,24 @@
+#newList {
+    font-family: var(--font);
+    font-size: larger;
+    font-weight: bold;
+    border: 2px solid var(--accentcolour);
+    background: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px var(--accentcolour);
+    color: var(--text);
+    padding: 10px;
+    height: fit-content;
+    cursor: pointer;
+    transition: transform 0.05s;
+}
+
+#newList:hover {
+    background-color: var(--accentcolour);
+    color: var(--sfondi);
+}
+
+#newList:active {
+    box-shadow: 3px 3px var(--accentcolour);
+    transform: translate(2px, 2px);
+}
