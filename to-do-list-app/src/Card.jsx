@@ -7,7 +7,7 @@ function Card({ id, title, task1, task2 }) {
     const onSelectList = id => { setActiveListId(id); setMode("read"); }
     
     return(
-        <div className="card" onClick={() => onSelectList(id)} onDoubleClick={() => console.log("Miseb")}>
+        <div className="card" onClick={() => onSelectList(id)}>
             <h2>{title}</h2>
             <h3>{task1}</h3>
             <h3>{task2}</h3>
